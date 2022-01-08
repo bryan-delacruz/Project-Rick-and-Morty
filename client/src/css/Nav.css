@@ -1,0 +1,11 @@
+.nav-container {
+  background-color: #6cbdb5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

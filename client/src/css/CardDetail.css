@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css family=Raleway:400,500&display=swap");
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  height: 300px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 8px 8px 16px rgba(165, 177, 198, 0.8),
+    -8px -8px 16px rgba(255, 255, 255, 0.8);
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: inset 8px 8px 16px rgba(165, 177, 198, 0.8),
+    inset -8px -8px 16px rgba(255, 255, 255, 0.8);
+}
+
+.card img {
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 4px rgba(165, 177, 198, 0.8),
+    -4px -4px 4px rgba(255, 255, 255, 0.8);
+}
+
+.card h2,
+.card h3,
+.card p {
+  color: var(--gray);
+  font-family: "Raleway", sans-serif;
+}
+
+.card h2 {
+  font-weight: 500;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  opacity: 0.8;
+  margin: 1rem 0;
+}
+.card h3 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.05rem;
+  opacity: 0.8;
+  margin: 1rem 0;
+}
+
+.card div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card div div {
+  font-size: 0.85rem;
+  margin: 10px;
+  text-align: center;
+}
